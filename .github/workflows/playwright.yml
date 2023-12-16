@@ -1,11 +1,10 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
 jobs:
-  test:
   test:
     runs-on: ubuntu-latest
 
@@ -26,7 +25,3 @@ jobs:
 
       - name: Run Playwright tests
         run: npm test
-
-
-
-
