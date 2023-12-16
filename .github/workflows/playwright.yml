@@ -28,7 +28,6 @@ jobs:
 
       - name: Start Angular app
         run: npm start &
-        background: true
 
       - name: Wait for Angular app to start
         run: sleep 10s
